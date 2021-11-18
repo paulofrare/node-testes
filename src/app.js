@@ -24,4 +24,6 @@ app.use((err, req, res, next) => {
   next(err);
 });
 
+console.log("teste")
+
 module.exports = app;
